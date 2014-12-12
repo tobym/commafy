@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "Commafy",
+  "description": "This extension formats numbers to include comma separators.",
+  "version": "1.0",
+
+  "permissions": [
+  ],
+  "background": {
+    "scripts": ["commafy.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.tapad.com/*"],
+      "js": ["commafy.js"]
+    }
+  ],
+  "browser_action": {
+  }
+}

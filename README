@@ -1,0 +1,21 @@
+Synopsis
+--------
+A Chrome browser extension to add commas to numbers. 1234 becomes 1,234 when you select "1234". I recommend double-clicking the number.
+
+This is configured to work on *tapad.com domains.
+
+Installation
+------------
+1. Open Chrome preferences
+2. Select "Extensions"
+3. Check the "Developer mode" box
+4. Click "Load unpacked extension"
+5. Select the folder where this content lives.
+
+Usage
+-----
+Just double-click a number (on a page from a tapad.com domain).
+
+Example
+--------
+Go to http://namenode01.prd.nj1.tapad.com:8888/jobbrowser/, choose any job, click on the Metadata tab, double-click on a big number.
